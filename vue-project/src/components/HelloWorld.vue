@@ -12,8 +12,8 @@ defineProps({
 // 使用 reactive 定义响应式对象
 const mydata = reactive({
   id: 1,
-  name: "Walker#34079",
-  age: 20,
+  name: "张宇航",
+  age: 18,
   sex: "男",
   address: "中国",
 })
@@ -29,7 +29,7 @@ const mydata = reactive({
     <div>地址：{{ mydata.address }}</div>
 
     <!-- 更新按钮示例 -->
-    <button @click="mydata.name = '张宇航'">更新姓名</button>
+    <button @click="mydata.name = '张佳琳'">更新姓名</button>
 
     <h3>
       您已成功创建了一个项目，包含
